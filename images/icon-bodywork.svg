@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <!-- Car body repair icon -->
+  <g fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Car silhouette -->
+    <path d="M6 34v4a2 2 0 0 0 2 2h4a6 6 0 0 0 12 0h12a6 6 0 0 0 12 0h4a2 2 0 0 0 2-2v-4"/>
+    <path d="M6 34h48v-6l-8-10H14L6 28v6z"/>
+    <!-- Windows -->
+    <path d="M17 28l3-8h20l3 8"/>
+    <line x1="30" y1="20" x2="30" y2="28"/>
+    <!-- Wheels -->
+    <circle cx="18" cy="40" r="4"/>
+    <circle cx="42" cy="40" r="4"/>
+    <!-- Dent/repair indicator lines -->
+    <path d="M24 14l-2-4M30 12v-4M36 14l2-4" stroke-width="2"/>
+  </g>
+</svg>

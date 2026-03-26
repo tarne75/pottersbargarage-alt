@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" href="images/favicon-180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://pottersbargarage.co.uk/wp-content/uploads/2022/03/cropped-logo-mini-32x32.png">
+  <link rel="apple-touch-icon" href="https://pottersbargarage.co.uk/wp-content/uploads/2022/03/cropped-logo-mini-180x180.png">
 </head>
 <body>
 
@@ -42,14 +47,10 @@
   <header class="site-header">
     <div class="container">
       <div class="header-inner">
-        <a href="index.html" class="site-logo">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.04 3H5.81l1.04-3zM19 17H5v-5h14v5z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg>
-          </div>
-          <div class="logo-text-wrap">
-            <span class="logo-name">Potters Bar Garage</span>
-            <span class="logo-tagline">Hertfordshire's Trusted Garage</span>
-          </div>
+                <a href="index.html" class="site-logo">
+          <img src="images/logo.png"
+               onerror="this.src='https://pottersbargarage.co.uk/wp-content/uploads/elementor/thumbs/Potters-Bar-Logo-PNG-1-po30l5fmrao1ntwb6v2pgnadifzz1dsg6e9g4xo96u.png'"
+               alt="Potters Bar Garage" height="48" style="height:48px;width:auto;display:block;">
         </a>
         <nav class="primary-nav">
           <span class="nav-item"><a href="index.html" class="nav-link">Home</a></span>
@@ -126,10 +127,21 @@
       </div>
 
       <div>
-        <div class="about-image-main" style="border-radius:18px;margin-bottom:32px;min-height:280px;">
-          <svg viewBox="0 0 24 24" style="width:100px;height:100px;fill:rgba(255,255,255,.2)"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99z"/></svg>
+                <div class="about-image-main" style="border-radius:18px;margin-bottom:32px;min-height:280px;background:var(--green-dark);overflow:hidden;">
+          <img src="images/mechanic.png"
+               onerror="this.src='https://pottersbargarage.co.uk/wp-content/uploads/2022/04/mechanic-1-1.png'"
+               alt="Potters Bar Garage mechanic at work"
+               style="width:100%;height:100%;object-fit:cover;display:block;">
         </div>
 
+        <!-- Trade Association Badge -->
+        <div style="margin-top:24px;display:flex;align-items:center;gap:16px;">
+          <img src="images/trade-badge.png"
+               onerror="this.src='https://pottersbargarage.co.uk/wp-content/uploads/2022/04/Trade-association.png'"
+               alt="Trade Association Member"
+               style="height:80px;width:auto;opacity:.9;">
+          <p style="font-size:.82rem;color:var(--text);line-height:1.5;">Proud members of our <strong>trade association</strong>, upholding the highest standards in the industry.</p>
+        </div>
         <!-- Quick Facts -->
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
           <div style="background:var(--bg-light);border-radius:12px;padding:20px;text-align:center;">
@@ -223,9 +235,10 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="footer-logo">
-            <div class="logo-icon"><svg viewBox="0 0 24 24" fill="white"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99z"/></svg></div>
-            <div class="logo-text-wrap"><span class="logo-name">Potters Bar Garage</span><span class="logo-tagline">Hertfordshire's Trusted Garage</span></div>
+                    <a href="index.html" class="footer-logo">
+            <img src="images/logo.png"
+                 onerror="this.src='https://pottersbargarage.co.uk/wp-content/uploads/elementor/thumbs/Potters-Bar-Logo-PNG-1-po30l5fmrao1ntwb6v2pgnadifzz1dsg6e9g4xo96u.png'"
+                 alt="Potters Bar Garage" height="44" style="height:44px;width:auto;display:block;filter:brightness(0) invert(1);">
           </a>
           <p>A family-run garage in Potters Bar serving customers from across Hertfordshire, Enfield and North London.</p>
         </div>
